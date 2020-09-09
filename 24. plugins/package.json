@@ -1,0 +1,21 @@
+{
+  "name": "source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Andriy Prisniiak",
+  "license": "MIT",
+  "dependencies": {
+    "@mongoosejs/double": "^0.2.0",
+    "mongoose": "^5.7.13",
+    "mongoose-autopopulate": "^0.9.1",
+    "mongoose-int32": "^0.3.1",
+    "mongoose-lean-virtuals": "^0.5.0",
+    "mongoose-update-versioning": "^0.1.1",
+    "uuid": "^3.3.3"
+  }
+}
